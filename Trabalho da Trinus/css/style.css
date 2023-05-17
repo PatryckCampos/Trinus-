@@ -1,0 +1,80 @@
+body {
+  background-size: 100%;
+  width: 100%;
+  min-height: 75%;
+    background: rgb(156,224,196);
+  background: linear-gradient(147deg, rgba(156,224,196,0.8603816526610644) 0%, rgba(13,137,218,0.7959558823529411) 100%);
+
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  margin:auto;
+}
+
+.card{
+  margin: auto;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: rgb(5, 15, 107);
+  text-align: center;
+}
+
+.rodape {
+
+  margin-top: 20px;
+  bottom: 0;
+  left: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Kozuka';
+  src: url("../fonts/kozuka.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'LetterGothicStd';
+  src: url("../fonts/LetterGothicStd.otf") format("opentype");
+}
+
+/* --- */
+
+section#rodape a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+section#rodape h6{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-custom {
+  background-color: rgb(44, 90, 177);
+  margin-bottom: 50px;
+}
+
+.fonte{
+  font-family: 'Kanit', sans-serif;
+}
+
+html.textomaior{
+  font-size: 150%;
+}
+
+.linha{
+  flex-direction: row;
+}
+.imagem{
+  height: auto;
+  width: auto;
+}
